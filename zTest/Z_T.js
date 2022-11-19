@@ -496,7 +496,8 @@ Z_T.populateSection = function (section) {
     margin: 5px; 
     background-color: ${sectionBGColor}; 
     border-radius: 10px;
-    width:300px;
+    line-height: 1.5;
+    width:450px;
   `;
 
   // Create Title

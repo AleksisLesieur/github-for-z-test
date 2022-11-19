@@ -10,6 +10,12 @@ function removeLetterFromArray(arr, letterToRemove) {
   return arr.filter((letter) => letter != letterToRemove);
 }
 
+// function removeLetterFromArray(arr, letterToRemove) {
+//   return arr.filter(function (letter) {
+//     return letter != letterToRemove;
+//   });
+// }
+
 function removeVowelsFromArray(arr) {
   return arr.filter((letter) => !["a", "e", "i", "o", "u"].includes(letter));
 }
